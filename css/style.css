@@ -1,0 +1,10 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/startup-593327_1920.jpg") center;
+    background-size: cover;
+}
+
+.header {
+	text-align: right;
+}
