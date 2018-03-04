@@ -17,10 +17,16 @@
 	.jobs {
 		flex-direction: column;
 	}
+	.background {
+    background: url("../img/main_image_small.jpg") center no-repeat;
+}
 }
 
 @media screen and (min-width: 800px) {
 	.job {
 		width: 33.3%;
 	}
+		.background {
+    background: url("../img/main_image_large.jpg") center;
+}
 }
