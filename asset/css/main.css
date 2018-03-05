@@ -8,13 +8,43 @@
 
 .contact {
     background: #333233;
-    padding: 4rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
+    flex-flow: column;
 }
 
-.contact>* {
-    flex: 100%;
-    color: #fff;
+.social {
+    display: flex;
+    justify-content: center;
+}
+.social__button {
+	margin: 2rem;
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+.button {
+	background-color: #FF7F02;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 1rem;
+	width: 18rem;
+	align-self: center;
+}
+.footer__list {
+	font-size: .8rem;
+}
+
+.footer__list--items {
+	display: inline-block;
+	margin-right: .5rem;
+}
+.footer__list--items:after {
+	margin-left: .5rem;
+	content: "|";
+}
+.footer__list--items:last-child:after {
+	content: none;
 }
