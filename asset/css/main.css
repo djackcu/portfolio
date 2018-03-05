@@ -1,0 +1,20 @@
+#work1 {
+    background-image: url(../img/pixel_project.png);
+}
+
+/*#work2, #work3{
+	background-image: url(../img/display.svg);
+}*/
+
+.contact {
+    background: #333233;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.contact>* {
+    flex: 100%;
+    color: #fff;
+}
