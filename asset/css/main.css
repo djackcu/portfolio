@@ -1,15 +1,51 @@
-#work1 {
-    background-image: url(../img/pixel_project.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+.hero{
+	background: url(../img/hero-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-/*#work2,
-#work3 {
-    background-image: url(../img/display.svg);
+
+.portfolio {
+	margin:2rem auto;
+}
+
+.container__flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.title__flex {
+    flex: 100%;
+}
+
+.portfolio__work {
+    padding: 1rem;
+    width: 100%;
+    height: calc(24rem - 2rem);
     background-size: cover;
     background-repeat: no-repeat;
-}*/
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 1rem;
+}
+.portfolio__work:last-child {
+	margin-bottom:0;
+}
+.portfolio__title {
+	margin-bottom: .5rem;
+}
+
+#work1 {
+    background-image: url(../img/pixel_project.png);
+}
+
+#work2,
+#work3 {
+    background-color: lightgrey;
+}
 
 .contact {
     background: #333233;
