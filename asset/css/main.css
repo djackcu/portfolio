@@ -63,7 +63,8 @@
 }
 
 #work1 {
-    background-image: url(../img/pixel_project.png);
+    background-color: lightgrey;
+    /*background-image: url(../img/pixel_project.png);*/
 }
 
 #work2,
