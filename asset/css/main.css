@@ -1,9 +1,14 @@
 #work1 {
     background-image: url(../img/pixel_project.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-/*#work2, #work3{
-	background-image: url(../img/display.svg);
+/*#work2,
+#work3 {
+    background-image: url(../img/display.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }*/
 
 .contact {
@@ -18,33 +23,37 @@
     display: flex;
     justify-content: center;
 }
+
 .social__button {
-	margin: 2rem;
-	font-size: 1.5rem;
-	color: #fff;
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
 .button {
-	background-color: #FF7F02;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	padding: 1rem;
-	width: 18rem;
-	align-self: center;
+    background-color: #FF7F02;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    width: 18rem;
+    align-self: center;
 }
+
 .footer__list {
-	font-size: .8rem;
+    font-size: .8rem;
 }
 
 .footer__list--items {
-	display: inline-block;
-	margin-right: .5rem;
+    display: inline-block;
+    margin-right: .5rem;
 }
+
 .footer__list--items:after {
-	margin-left: .5rem;
-	content: "|";
+    margin-left: .5rem;
+    content: "|";
 }
+
 .footer__list--items:last-child:after {
-	content: none;
+    content: none;
 }
