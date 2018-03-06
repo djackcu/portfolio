@@ -1,17 +1,39 @@
-.hero{
-	background: url(../img/hero-background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+.site_head {
+    display: none;
+}
+
+#contact_me {
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 0;
+    z-index: 99;
+}
+
+/*#contact__button {
+    display: none;
+}*/
+
+.hero {
+    background: url(../img/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    height: calc(24rem - 2rem);
+    padding: 2rem 1.5rem;
+    color: white;
 }
 
 
 .portfolio {
-	margin:2rem auto;
+    margin: 2rem auto;
 }
 
-.container__flex{
-	display: flex;
-	flex-wrap: wrap;
+.container__flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .title__flex {
@@ -31,11 +53,13 @@
     justify-content: center;
     margin: 1rem 1rem;
 }
+
 .portfolio__work:last-child {
-	margin-bottom:0;
+    margin-bottom: 0;
 }
+
 .portfolio__title {
-	margin-bottom: .5rem;
+    margin-bottom: .5rem;
 }
 
 #work1 {
@@ -47,7 +71,13 @@
     background-color: lightgrey;
 }
 
-.contact {
+.skill__list {
+    list-style-type: none;
+}
+
+
+.contact,
+.skills {
     background: #333233;
     padding: 2rem;
     display: flex;
@@ -55,14 +85,21 @@
     flex-flow: column;
 }
 
-.social {
-    display: flex;
-    justify-content: center;
+.skills {
+    padding: 1rem;
 }
 
-.social__button {
-    margin: 2rem;
-    font-size: 1.5rem;
+.social,
+.skill__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social__button,
+.skill__item {
+    margin: 1.5rem;
+    font-size: 2rem;
     color: #fff;
 }
 
