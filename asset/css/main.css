@@ -21,11 +21,14 @@ a {
 
 .hero__headline {
     flex: 100%;
+    text-align: right;
 }
 
 .hero__description {
     text-align: right;
     align-self: flex-end;
+    width: 50%;
+    color: #2d3c49;
 }
 
 .portfolio {
@@ -39,12 +42,13 @@ a {
 
 .title__flex {
     flex: 100%;
+    color: #2d3c49;
 }
 
 .portfolio__work {
     padding: 1rem;
     width: 100%;
-    height: calc(24rem - 2rem);
+    height: calc(30.8rem - 2rem);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -64,13 +68,13 @@ a {
 }
 
 #work1 {
-    background-color: lightgrey;
+    background-color: #7d97ad;
     /*background-image: url(../img/pixel_project.png);*/
 }
 
 #work2,
 #work3 {
-    background-color: lightgrey;
+    background-color: #7d97ad;
 }
 
 .skill__title {
@@ -93,7 +97,7 @@ a {
 
 .contact,
 .skills {
-    background: #333233;
+    background: #2d3c49;
     padding: 2rem;
     display: flex;
     justify-content: center;
