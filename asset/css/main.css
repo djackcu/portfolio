@@ -1,24 +1,11 @@
-.site_head {
-    display: none;
+a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
-#contact_me {
-    display: block;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 1rem 0;
-    z-index: 99;
-}
-
-
-
-
-
-/*#contact__button {
+.header__container {
     display: none;
-}*/
+}
 
 .hero {
     background: url(../img/hero-background.jpg);
@@ -29,11 +16,13 @@
     padding: 2rem 1.5rem;
     color: white;
     display: flex;
+    flex-flow: column;
 }
 
 .hero__headline {
-	flex:100%;
+    flex: 100%;
 }
+
 .hero__description {
     text-align: right;
     align-self: flex-end;
@@ -86,22 +75,20 @@
 
 .skill__title {
     color: white;
+    margin: 0.5rem;
 }
 
 .skill__list {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .skill__item {
-    padding: 3rem;
-    border: 1px solid white;
-    font-size: 4rem;
-    border-radius: 15px;
-}
-
-.skills {
-    padding: 1rem;
+    color: white;
+    width: 5%;
+    text-align: center;
 }
 
 .contact,
@@ -113,15 +100,17 @@
     flex-flow: column;
 }
 
-.social,
-.skill__list {
+.skills {
+    padding: 0;
+}
+
+.social {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.social__button,
-.skill__item {
+.social__button {
     margin: 1.5rem;
     font-size: 2rem;
     color: #fff;
@@ -135,6 +124,16 @@
     padding: 1rem;
     width: 18rem;
     align-self: center;
+}
+
+#contact__button {
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 0;
+    z-index: 99;
 }
 
 .footer__list {
@@ -158,12 +157,16 @@
 
 
 
+
+
 /*Media queries*/
 
 
 /*Tablet screen size*/
 
 @media screen and (min-width: 450x) {}
+
+
 
 
 
