@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Portfolio : Dieter Jackson</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
     <!--Styles-->
     <link rel="stylesheet" href="asset/css/normalize.css">
     <link rel="stylesheet" href="asset/css/main.css">
@@ -17,7 +19,7 @@
             <div class="container header__container">
                 <i id="site__logo"><img src="asset/img/lamp_ico.svg" alt="Lamp logo" width="100px" height="100px"></i>
                 <div class="site_head">
-                    <h1 id="site__title">Dieter Jackson</h1>
+                    <h1 id="site__title">Personal Portfolio</h1>
                     <a href="" class="button" id="contact_me">Contact Me</a>
                 </div>
             </div>
@@ -25,15 +27,15 @@
         <div class="hero">
             <h1 class="hero__headline">
             	Hi, I'm Dieter Jackson <br>
-				Junior Web Developer
+				A future Full-Stack Developer
 			</h1>
             <p class="hero__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repellat dolores odio debitis. Sit, aspernatur, totam. Aspernatur deleniti, eligendi illo.
-                <br><a href="" class="hero__link">Learn more about me</a></p>
+                <br><a href="#contact" class="hero__link">Learn more about me</a></p>
         </div>
     </div>
     <section class="skills">
         <div class="skill__asset ">
-            <h3 class="skill__title">Skills</h3>
+            <h2 class="skill__title">Skills</h2>
             <ul class="skill__list">
                 <li class="skill__item"><i class="html5">
                 	<svg viewBox="0 0 128 128">
@@ -72,24 +74,29 @@
         <div class="container__flex">
             <h2 class="title__flex">Featured Work</h2>
             <div class="portfolio__work" id="work1">
-                <h3 class="portfolio__title">Work Title 1</h3>
-                <p class="portfolio__description">Front-end design</p>
+                <h3 class="portfolio__title">Pixel Art Maker</h3>
+                <a href="https://djackcu.github.io/Pixel_Art_Maker/" class="portfolio__description">View project</a>
             </div>
             <div class="portfolio__work" id="work2">
-                <h3 class="portfolio__title">Work Title 2</h3>
-                <p class="portfolio__description">Front-end design</p>
+                <h3 class="portfolio__title">Trading cards</h3>
+                <a href="https://djackcu.github.io/animal_trading_cards/" class="portfolio__description">View project</a>
             </div>
             <div class="portfolio__work" id="work3">
                 <h3 class="portfolio__title">Work Title 3</h3>
-                <p class="portfolio__description">Front-end design</p>
+                <a href="" class="portfolio__description">View project</a>
+            </div>
+            <div class="portfolio__work" id="work4">
+                <h3 class="portfolio__title">Work Title 3</h3>
+                <a href="" class="portfolio__description">View project</a>
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
+    	<h2 class="contact__title">Contact</h2>
         <div class="social">
-            <a href="" class="social__button"><i class="fab fa-github"></i></a>
-            <a href="" class="social__button"><i class="fab fa-codepen"></i></a>
-            <a href="" class="social__button"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/djackcu" class="social__button"><i class="fab fa-github"></i></a>
+            <a href="https://codepen.io/djackcu/" class="social__button"><i class="fab fa-codepen"></i></a>
+            <a href="https://www.linkedin.com/in/dieterjackson/" class="social__button"><i class="fab fa-linkedin"></i></a>
         </div>
         <a href="" class="button" id="contact__button">Contact me</a>
     </section>
