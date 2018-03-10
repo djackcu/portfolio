@@ -160,15 +160,18 @@ a {
 
 
 
-
-
-
 /*Media queries*/
 
 
 /*Tablet screen size*/
 
-@media screen and (min-width: 450x) {}
+@media screen and (min-width: 426px) {
+    .header__container {
+        display: block;
+    }
+}
+
+
 
 
 
@@ -176,4 +179,4 @@ a {
 
 /*Pc screen size*/
 
-@media screen and (min-width: 800px) {}
+@media screen and (min-width: 769px) {}
