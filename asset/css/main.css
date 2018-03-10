@@ -52,7 +52,7 @@
 
     .hero {
         background: linear-gradient( rgba(239, 239, 238, 0.40),
-        rgba(239, 239, 238, 0.40)), url(../img/hero-background.jpg);
+        rgba(239, 239, 238, 0.40)), -webkit-image-set(url(../img/hero-background-small.jpg) 1x, url(../img/hero-background-large.jpg) 2x);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center right;
