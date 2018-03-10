@@ -109,7 +109,10 @@
         display: table;
         clear: both;
     }
-
+	
+	.no_project{
+		display: none;
+	}
 
     .portfolio__title {
         margin-bottom: .5rem;
@@ -132,7 +135,11 @@
         background-position: center center;
     }
 
-    #work3,
+    #work3 {
+        background: no-repeat url(../img/project.svg);
+        background-size: cover;
+        background-position: center center;
+    }
     #work4 {
         background-color: #7d97ad;
     }
