@@ -101,7 +101,6 @@
         justify-content: center;
         margin: 1rem 1rem;
     }
-
     /* Source for set ratio https://css-tricks.com/aspect-ratio-boxes/ */
     /*Set ratio*/
 
@@ -113,9 +112,9 @@
         height: 0;
         padding-top: 56.25%;
     }
-
     /* to clear float */
-    .portfolio__work::after {    
+
+    .portfolio__work::after {
         content: "";
         display: table;
         clear: both;
@@ -235,7 +234,6 @@
     .footer__list--items:last-child:after {
         content: none;
     }
-
     /*Media queries*/
     /*Tablet screen size*/
 
@@ -305,6 +303,29 @@
     /*PC screen size*/
 
     @media screen and (min-width: 769px) {
+        .header__container {
+            position: fixed;
+            left: 0;
+            background-color: #efefee;
+            border-bottom: 2px solid #2d3c49;
+        }
+
+        .page__body {
+            padding-top:7.7rem;
+        }
+
+        .site_head{
+            flex-direction: row;
+            justify-content: center;
+        }
+        #site__title {
+            display: block;
+            text-align: center;
+            flex: 60%;
+        }
+        #contact_me {
+            align-self: center;
+        }
 
         .portfolio__work {
             width: calc(33.333% - 4rem);
