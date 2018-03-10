@@ -245,6 +245,11 @@
             transform: rotateY(180deg);
         }
 
+        #img_logo {
+        	width: 100px;
+        	height: 100px;
+        }
+
         .site_head {
             flex: 80%;
             display: flex;
