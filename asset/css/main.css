@@ -220,6 +220,7 @@
 
     .footer__list {
         font-size: .8rem;
+        margin-bottom: 5rem;
     }
 
     .footer__list--items {
@@ -296,6 +297,10 @@
             width: 50%;
             position: relative;
         }
+        .footer__list {
+
+        margin-bottom: .4rem;
+    }
     }
     /*PC screen size*/
 
