@@ -1,0 +1,7 @@
+palette 
+
+#2d3c49
+#008eab
+#02b3e4
+#7d97ad
+#efefee
