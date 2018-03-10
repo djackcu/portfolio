@@ -38,12 +38,17 @@
         color: #2d3c49;
     }
 
+    p {
+        font-weight: 400;
+    }
+
     .header__container {
         display: none;
     }
 
     .hero {
-        background: url(../img/hero-background.jpg);
+        background: linear-gradient( rgba(239, 239, 238, 0.40),
+        rgba(239, 239, 238, 0.40)), url(../img/hero-background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center right;
@@ -109,10 +114,10 @@
         display: table;
         clear: both;
     }
-	
-	.no_project{
-		display: none;
-	}
+
+    .no_project {
+        display: none;
+    }
 
     .portfolio__title {
         margin-bottom: .5rem;
@@ -140,6 +145,7 @@
         background-size: cover;
         background-position: center center;
     }
+
     #work4 {
         background-color: #7d97ad;
     }
@@ -246,8 +252,8 @@
         }
 
         #img_logo {
-        	width: 100px;
-        	height: 100px;
+            width: 100px;
+            height: 100px;
         }
 
         .site_head {
